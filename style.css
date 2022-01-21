@@ -1,0 +1,76 @@
+/*CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    padding:0 2%;
+    font-family: 'Outfit', sans-serif;
+}
+
+.main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Card*/
+.card {
+    background-color: #fff;
+    max-width: 320px;
+    padding: 14px;
+    border-radius:20px;
+    box-shadow: 0 20px 10px 0 hsl(212, 32%, 85%);
+}
+
+.card div {
+    margin-bottom: 15px;
+}
+
+.card div:last-of-type {
+    margin-bottom: 30px;
+}
+
+.card__img {
+    border-radius: 3%;
+}
+
+.card__img img {
+    width: 100%;
+    border-radius: 3%;
+}
+
+.card__title {
+    padding: 0 15px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.card__text {
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    font-size: 15px;
+    padding: 0 15px;
+}
+
+/*Footer*/
+.footer {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 11px;
+}
+
+.footer a { 
+    color: hsl(228, 45%, 44%); 
+}
